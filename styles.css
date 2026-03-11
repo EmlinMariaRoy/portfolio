@@ -99,6 +99,38 @@ main {
 .hero {
   padding: 48px 10px 20px;
 }
+.hero-layout {
+  display: grid;
+  gap: 28px;
+  align-items: center;
+}
+.hero-copy {
+  min-width: 0;
+}
+.hero-visual {
+  display: flex;
+}
+.hero-visual-main {
+  justify-content: center;
+  display: none;
+}
+.profile-frame {
+  margin: 0;
+  padding: 10px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--surface) 82%, transparent);
+  border: 1px solid var(--border);
+}
+.profile-photo {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid var(--accent);
+  box-shadow: 0 4px 24px color-mix(in oklab, var(--accent) 30%, transparent);
+  display: block;
+}
 .tag {
   display: inline-block;
   font-size: 0.8rem;
@@ -124,6 +156,93 @@ h2 {
   max-width: 740px;
   margin-top: 14px;
   color: var(--muted);
+}
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.about-photo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  padding: 14px;
+  background: color-mix(in oklab, var(--surface) 88%, transparent);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.profile-frame-about {
+  width: 100%;
+  max-width: 210px;
+  padding: 10px;
+  border: 1px solid color-mix(in oklab, var(--accent) 24%, var(--border));
+  border-radius: 32px;
+  background: linear-gradient(180deg, color-mix(in oklab, var(--accent) 18%, transparent), transparent 45%);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+.about-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center 12%;
+  transform: scale(1.04);
+  transform-origin: center top;
+}
+.about-copy {
+  max-width: 100%;
+}
+.about-panel {
+  border-radius: 24px;
+  padding: 22px;
+}
+.about-kicker {
+  margin: 0 0 10px;
+  color: var(--accent-2);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.about-lead {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text);
+  max-width: 60ch;
+}
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+.about-highlights span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 14%, transparent);
+  border: 1px solid color-mix(in oklab, var(--accent) 30%, var(--border));
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+.about-text {
+  display: grid;
+  gap: 12px;
+  max-width: 64ch;
+}
+.about-text p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+  text-align: left;
+  text-wrap: pretty;
 }
 
 .hero-actions {
@@ -235,5 +354,22 @@ footer {
   .cards-3 { grid-template-columns: 1fr; }
   .cards-2 { grid-template-columns: 1fr; }
   .stats { grid-template-columns: 1fr; }
+  .about-layout { grid-template-columns: 1fr; }
+  .about-photo-card {
+    justify-content: flex-start;
+    max-width: 280px;
+  }
+  .about-copy p {
+    text-align: left;
+  }
+  .hero-layout {
+    grid-template-columns: 1fr;
+  }
+  .hero-copy {
+    text-align: left;
+  }
+  .hero-visual-main {
+    justify-content: flex-start;
+  }
   nav { display: none; }
 }
