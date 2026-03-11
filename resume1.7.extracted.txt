@@ -1,0 +1,61 @@
+Emlin Maria Roy
+Vellore Institute Of Technology, Vellore, India
+Email: emlinmariaroy@gmail.com
+Phone: +91 8848543301
+https://www.linkedin.com/in/emlin-maria-roy-9880701bb | https://github.com/EmlinMariaRoy
+Objective
+A self-motivated and dedicated individual with an aspiration to self-improve and contribute meaningfully, with a 
+passion for embracing challenges and opportunities for growth.
+Education
+VIT Vellore: M.Tech. in Computer Science & Engineering (BDA)(2024-2026),    CGPA: 9.17/10 (Ongoing)
+APJ Abdul Kalam Technological University: B.Tech. in Computer Science & Engineering Minor in Electrical and 
+Electronics Engineering (2020-2024),       CGPA : 9.32/10
+Chavara Public School, Pala: Senior Secondary (CBSE), 90.6% (2020)
+De Paul Public School, Thodupuzha: Secondary (CBSE), 94.58% (2018)
+Experience
+Intern at Intel Infosec
+Worked with Intel’s InfoSec Cyber Defence team focusing on compliance initiatives, security monitoring campaigns 
+using Splunk, and vulnerability management training on Tenable.sc.
+Identify remediation of security vulnerabilities, incidents, and policy violations across systems and applications. 
+Enforce security standards, configurations, and compliance requirements by working with IT, SOC, and engineering 
+teams to ensure timely risk reduction.
+Technical Skills Certifications And  Trainings
+Programming: C, Python, Java NPTEL-SWAYAM: Programming, Data Structures, and 
+Algorithms in Python
+Technologies: HTML, CSS, Angular, JavaScript, PHP, 
+MySQL, Big Data Frameworks British Council English Score: CEFR-C1
+Tools: Git, VSCode, Hadoop, Spark, Hive Machine Learning  Intern at NextGenPro, Kochi
+Operating Systems: Windows, Linux
+Projects
+Resource Recovery Planner : Developed an application to predict 
+disasters using ML and track live resources. Integrated data visualization 
+dashboards for government authorities to allocate resources effectively.
+(Technologies: Flutter, Python, Angular, 
+MongoDB, REST APIs)
+Disaster Prediction Using Voting Classifier: Built a disaster prediction 
+model using a V oting Classifier to improve prediction accuracy by 
+combining multiple ML algorithms.
+(Technologies Used: Python, Scikit-learn, 
+Pandas, NumPy)
+Multi-Salon Mobile App: Designed a scalable mobile app supporting 
+dual functionality for customers and salon owners. Features include 
+appointment booking, package management, and real-time notifications.
+(Technologies: Java, XML, Android Studio, 
+PHP, Python)
+E-commerce Portal: Vegetable Shop: Built an online shopping portal 
+with secure payment integration, user-friendly navigation, and inventory 
+management.
+(Technologies: Java, HTML, CSS, 
+JavaScript, MySQL)
+Leadership & Activities Awards & Recognition
+NSS V olunteer, IEEE V olunteer, Event Coordinator for 
+National Tech Fest
+Student Icon (Interschool Accenta Program), Kalathilakam 
+in High School
+Campus Ambassador for SkillVertex Upskilling Programs Prizes in Essay Writing, Debate, Elocution
+
+Leadership & Activities Awards & Recognition
+IT Coordinator at Communal Catechism Centre Qualified in National Engineering Olympiad 2021
+Declaration
+I hereby declare that the information given above is true to the best of my knowledge.
+Emlin Maria Roy
