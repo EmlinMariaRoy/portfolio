@@ -1,7 +1,8 @@
 const lines = [
-  "I solve problems, run RCA, and ship practical improvements.",
-  "I troubleshoot production issues and build reliable fixes.",
-  "I turn technical findings into clear action and impact."
+  "I build intelligent solutions and turn data into insights.",
+  "I create full-stack applications that solve real problems.",
+  "I develop machine learning models that make predictions.",
+  "I design scalable systems with clean, efficient code."
 ];
 
 const typingEl = document.getElementById("typing");
